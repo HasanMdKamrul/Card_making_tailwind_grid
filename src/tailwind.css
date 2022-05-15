@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* tailwin group utilities */
+
+.btn {
+    @apply
+    mx-auto 
+    text-center 
+    px-4
+    py-1 
+    border 
+    rounded-full 
+    text-blue-500 
+    hover:text-white 
+    focus:border-transparent 
+    focus:outline-none 
+    focus:ring-2 
+    focus:ring-offset-2 
+    dark:text-blue-300; 
+}
+
+.btn-blue {
+    @apply
+   
+    border-blue-200 
+    hover:bg-blue-400 
+    ring-blue-600 
+    sm:dark:focus:ring-blue-700;
+}
+
+.btn-green {
+    @apply
+    border-green-200 
+    hover:bg-green-400 
+    ring-green-600 
+    sm:dark:focus:ring-green-700;
+}
